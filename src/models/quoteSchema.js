@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 const Schema = mongoose.Schema;
-
+//test
 export const QuoteSchema = new Schema ({
   name: {
     type: String,
