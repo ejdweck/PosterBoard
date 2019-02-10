@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Patient-API
 This project is a NodeJS application that provides CRUD access to a MongoDB database.
 
@@ -77,3 +78,6 @@ Start the development server
 To run the test suite, ensure the application isn't already running via yarn start and run
 
     $ yarn test
+=======
+# PosterBoard
+>>>>>>> 91710ca166e204acc88405bfc55ed7509f1db00e
