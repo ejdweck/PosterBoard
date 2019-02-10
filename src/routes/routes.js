@@ -1,30 +1,13 @@
 import {
-    getAllPatients,
-    addPatient,
-    getPatients,
-    getPatientWithId,
-    updatePatient,
-    deletePatient,
-    getPatientAgeWithId,
+    getAllQuotes,
+    addQuote,
 } from '../controllers/controller';
 
 const routes = (app) => {
-    app.route('/allPatients')
-        .get(getAllPatients)
+    app.route('/allQuotes').get(getAllQuotes)
 
-    app.route('/patients/:pageNo')
-        .get(getPatients);
-
-    app.route('/addPatient')
-        .post(addPatient);
-
-    app.route('/patient/:patientId')
-        .get(getPatientWithId)
-        .patch(updatePatient)
-        .delete(deletePatient);
-
-    app.route('/patient/:patientId/age')
-        .get(getPatientAgeWithId)
+    app.route('/addQuote').post(addQuote);
 }
 
 export default routes;
+
